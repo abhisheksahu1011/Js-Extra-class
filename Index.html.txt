@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-1</title>
+</head>
+<body style="background-color: black; color: white;">
+    <!-- what is Javascript?
+what is the javascript run time environment?
+what is execution context?
+what is javascript Engine?
+flow of data in engine? -->
+
+<h2>1- what is Javascript?</h2>
+<p>Ans-- <br>
+    javascript is scripting language.it is a single threaded synchronous language .but we can use asynchronously with web api's features. <br>
+     It is also called interpreted language and it is dynamic typed language. <br>
+    Javascript code is executed at a time <br>
+    single threaded--one code will be executed at a time. <br>
+    combination of both compiler and interpeter is known as JIT (Just in time) compilation. <br>
+    synchronous--> after executing the first line it will be forwaded to next line
+</p>
+
+<h2>2- what is the javascript run time environment?</h2>
+<p>Ans-- <br>
+    The JavaScript runtime environment provides access to built-in libraries and objects that are available to a program <br>
+     so that it can interact with the outside world and make the code work. <br>
+     In the context of a browser comprised of<br>
+     The JavaScript engine (which in turn is made up of the heap and the call stack) <br>
+     Web APIs <br>
+     The callback queue <br>
+     The event loop
+
+</p>
+<h2>3- what is execution context?</h2>
+<p>Ans-- <br>
+    The browser's JavaScript engine then creates a special environment to handle the transformation <br>
+     and execution of this JavaScript code. This environment is known as the Execution Context. <br> <br>
+     During the Execution Context run-time, the specific code gets parsed by a parser, the variables and <br>
+      functions are stored in memory, executable byte-code gets generated, and the code gets executed. <br>
+      There are two kinds of Execution Context in JavaScript: <br>
+      ●	Global Execution Context <br>
+      ●	Function Execution Context
+</p>
+<h2>4- what is javascript Engine?</h2>
+<p>Ans-- <br>
+    The JavaScript Engine is a program whose responsibility is to execute JavaScript code. <br>
+     All modern browsers come with their own version of the JavaScript Engine but the most popular one is Google’s V8 Engine. <br>
+     V8 -> Open-source JavaScript Engine developed by Google for Chrome
+</p>
+<h2>5- flow of data in engine?</h2>
+<p>Ans-- <br>
+    The environment needs to have an engine, which takes the JS code that's written in human-readable syntax and turns it into machine code. <br>
+    The engine uses a parser to go through the code line by line and check if the syntax is correct. If there are any errors, code will stop executing and an error will be thrown.
+
+</p>
+</body>
+</html>

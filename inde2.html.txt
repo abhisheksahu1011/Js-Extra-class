@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-2</title>
+</head>
+<body style="background-color: black; color: white;">
+
+<h2> 1)Different Data types available in Javascript </h2>
+<p>Ans-- <br>
+    1.Primitive Datatype:  number, string, boolean, NULL, Infinity and symbol <br>
+    2.Non-primitive Datatype: Objects and Array.
+</p>
+
+<h2>2)In how many ways we can declare a variable </h2>
+<p>Ans-- <br>
+    we can declares variable in three ways: <br>
+     1.var <br>
+     2.Let <br>
+     3.const
+
+</p>
+
+<h2>  3)What is Hoisting </h2>
+<p>Ans-- <br>
+    Hoisting in JavaScript is a behavior in which a function or a variable can be used before declaration. <br>
+<pre> console.log(hey);   // undefined
+    var hey;
+</pre>
+</p>
+
+<h2> 4)What is temperal Dead Zone</h2>
+<p>Ans-- <br>
+    Temporal Dead Zone is the period of time during which the let and const declarations cannot be accessed. <br>
+     Temporal Dead Zone starts when the code execution enters the block which contains the let or const declaration <br> and continues until the declaration has executed.
+ Ex: <pre>  {
+      area of block (let & Const)
+      }
+</pre>
+</p>
+
+<h2>5)What is the Difference between == & === Operator  ?</h2>
+<p>Ans-- <br>
+    Both are comparison operators. The difference between both the <br> operators is that,“==” is used to compare values whereas,“ === “ is <br> used to compare both value and datatypes. <br>
+
+<pre> 
+var x="2";
+var y=2;
+console.log(x==y);   It returns true because it only check values not data types
+console.log(x===y);   It returns false because you can see though values are same x is of string 
+</pre>
+</p>
+
+<h2>6)What are the Different types of Operators in Javascript</h2>
+<p>Ans-- <br>
+    there are six type of Operators <br> <br>
+    1)Arithmetic Operators <br>
+    2)Comparision Operators <br>
+    3)Logical Operators <br>
+    4)Relational Operators <br>
+    5)Conditional Operator <br>
+    6)Bitwise Operator
+
+</p>
+
+
+    
+
+    
+</body>
+</html>
